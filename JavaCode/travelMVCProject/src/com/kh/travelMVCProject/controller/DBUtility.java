@@ -13,7 +13,7 @@ public class DBUtility {
 	public static Connection dbCon()  {
 		Connection con = null;
 		// db.properties file 에서 id, pw 가져오기
-		String filePath = "C:\\Users\\PC\\javaDB\\travelMVCProject\\src\\db.properties";
+		String filePath = "D:\\TravelProject\\travelMVCProject\\src\\db.properties";
 		Properties pt = new Properties(); 
 		try {
 			pt.load(new FileReader(filePath));
